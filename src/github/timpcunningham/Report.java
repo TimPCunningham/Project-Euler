@@ -3,7 +3,7 @@ package github.timpcunningham;
 
 public class Report {
     private static String SEPERATOR = "==============================";
-    
+
     public static void reportNumber(int problem, int number) {
         printHeader(problem);
         print("Answer: " + number);
